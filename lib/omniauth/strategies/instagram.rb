@@ -9,7 +9,7 @@ module OmniAuth
       option :name, "instagram"
 
       option :client_options, {
-        site: "https://graph.instagram.com/v20.0",
+        site: "https://graph.instagram.com/v21.0",
         authorize_url: "https://api.instagram.com/oauth/authorize",
         token_url: "https://api.instagram.com/oauth/access_token"
       }
